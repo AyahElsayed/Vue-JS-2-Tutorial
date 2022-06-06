@@ -1,14 +1,17 @@
 <template>
   <HelloWorld />
+  <Ninjas />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Ninjas from './components/Ninjas.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Ninjas
   }
 }
 </script>
